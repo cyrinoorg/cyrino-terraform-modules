@@ -9,6 +9,3 @@ resource "aws_instance" "example" {
   subnet_id     = var.subnet_id
 }
 
-output "instance_id" {
-  value = aws_instance.example.id
-}
